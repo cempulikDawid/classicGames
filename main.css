@@ -1,0 +1,41 @@
+body {
+    background-color: #24242e;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Genos', sans-serif;
+    color: white;
+}
+
+.content {
+    margin-top: 20em;
+    width: 60%;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #003852;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    padding: 0.7em;
+    padding-top: 0;
+    padding-bottom: 0;
+
+    transition: background-color 0.2s;
+}
+
+header a:hover {
+    background-color: #005b85;
+}
+
+main {
+    background-color: #003147;
+    height: 100em;
+}
